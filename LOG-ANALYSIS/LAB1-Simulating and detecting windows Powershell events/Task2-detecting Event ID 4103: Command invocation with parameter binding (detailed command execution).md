@@ -21,18 +21,18 @@ Before proceeding, make sure PowerShell script block logging is enabled on your 
 
 # Step 1:(executing the command which will generate log entry):
 Run the following PowerShell command to generate a log entry:\
-Start-Process "notepad.exe" -ArgumentList "C:\Windows\System32\drivers\etc\hosts"
-about the  command
+Start-Process "notepad.exe" -ArgumentList "C:\Windows\System32\drivers\etc\hosts"\
 
-1.Starts a new process using the Start-Process cmdlet.
-2.Specifies "notepad.exe" as the program to launch.
-3.Passes "C:\Windows\System32\drivers\etc\hosts" as an argument to Notepad.
+About the  command:
+1.Starts a new process using the Start-Process cmdlet.\
+2.Specifies "notepad.exe" as the program to launch.\
+3.Passes "C:\Windows\System32\drivers\etc\hosts" as an argument to Notepad.\
 4.As a result, Notepad opens the hosts file directly.
 
 # Step 2:(detecting the event 4103 in the event viewer):
 goto:Applications and Services Logs → Microsoft → Windows → PowerShell → Operational\
 filter 4103 event.\
-find info like: 
+find info like: \
 PowerShell command that was executed\
 User who ran the command\
 Timestamp of the execution\
