@@ -18,3 +18,18 @@ Some common Event IDs in Windows Security Logs that you will encounter include:
 3.Event ID 4740: Account Lockout.\
 4.Event ID 4732: A user was added to a security-enabled local group.\
 5.Event ID 4672: Special privileges assigned to a new logon (Privilege escalation).
+
+
+Code,Name,Commonality
+0,System,"Used by the OS itself at startup. You'll see this often, but it's rarely an ""attack."""
+1,(None),Missing / Deprecated.
+2,Interactive,Standard local keyboard login.
+3,Network,Accessing files/printers over the network.
+4,Batch Job,"Scheduled tasks (e.g., automated backups)."
+5,Service,A system service starting up.
+6,(None),Missing / Reserved.
+7,Unlock,Entering a password to a screen that was already locked.
+8,NetworkCleartext,Unencrypted network login (High Risk!).
+9,NewCredentials,Using the RunAs command.
+10,RemoteInteractive,RDP (Remote Desktop).
+11,CachedInteractive,Logging in while offline (laptops).
