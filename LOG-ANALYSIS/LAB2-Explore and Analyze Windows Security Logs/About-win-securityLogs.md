@@ -43,13 +43,8 @@ In Windows Security auditing, the **Logon Type** field within Event IDs 4624 (Su
 
 ## Advanced & Special Types
 
-* **Type 8 (NetworkCleartext):** A network login where the password was sent unencrypted. **Note:** This is high risk as credentials can be sniffed in transit.
+* **Type 8 (NetworkCleartext):** A network login where the password was sent unencrypted.\ **Note:** This is high risk as credentials can be sniffed in transit.
 * **Type 9 (NewCredentials):** Occurs when using `RunAs` with the `/netonly` switch. Often used by admins or attackers to map drives using different credentials.
 * **Type 11 (CachedInteractive):** User logged in with saved credentials because the Domain Controller was unreachable (common for remote laptop users).
 * **Type 12/13 (Cached Remote/Unlock):** Similar to Type 11 but for RDP or Unlocks in an offline state.
 
----
-
-> **Note on Missing Types:** > - **Type 1:** Deprecated (used in older Windows NT versions).
-> - **Type 6:** Reserved/Deprecated.
-> *These will not appear in modern Windows Server or Windows 10/11 logs.*
