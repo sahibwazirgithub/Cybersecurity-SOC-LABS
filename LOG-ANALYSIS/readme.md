@@ -30,9 +30,9 @@ To check the rule number: ufw status numbered\
 
 # UFW Rule Syntax:
 
-Basic allow rule: ufw allow
-Deny a port: ufw deny
-Allow by service: ufw allow (e.g., ufw allow ssh)
-Allow by IP: ufw allow from
-Allow specific port from IP: ufw allow from to any port
-Delete rule: ufw delete allow
+Basic allow rule: ufw allow\
+Deny a port: ufw deny\
+Allow by service: ufw allow (e.g., ufw allow ssh)\
+Allow by IP: ufw allow from\
+Allow specific port from IP: ufw allow from to any port\
+Delete rule: ufw delete allow\
