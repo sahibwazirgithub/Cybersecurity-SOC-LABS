@@ -11,4 +11,9 @@ Attacker Machine:: Kali Linux
 Target Machine: Ubuntu Linux
 <img width="979" height="512" alt="Screenshot 2025-12-25 002130" src="https://github.com/user-attachments/assets/48c6aa76-d91b-4d1b-8cbb-179dcf0dd948" />
 
+# Tools Needed:
+nmap (on attacker machine)
+ufw or iptables (on target machine)
+
+
 
