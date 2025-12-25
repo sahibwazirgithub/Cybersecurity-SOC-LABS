@@ -15,6 +15,7 @@ Before proceeding, make sure PowerShell script block logging is enabled on your 
 2.Navigate to: Computer Configuration > Administrative Templates > Windows Components > Windows PowerShell\
 3.Turn on Module Logging, Script Block Logging, and Script Execution.\
 4.Apply the settings and close the Group Policy Editor.
+<img width="1920" height="1040" alt="Screenshot 2025-12-25 175009" src="https://github.com/user-attachments/assets/50156b00-dd6b-457e-86ce-01c280196505" />
 
 # Key PowerShell Log to Monitor:
  Event ID 4103: Command invocation with parameter binding (detailed command execution)
@@ -28,6 +29,7 @@ About the  command:
 2.Specifies "notepad.exe" as the program to launch.\
 3.Passes "C:\Windows\System32\drivers\etc\hosts" as an argument to Notepad.\
 4.As a result, Notepad opens the hosts file directly.
+<img width="1920" height="1040" alt="Screenshot 2025-12-25 175253" src="https://github.com/user-attachments/assets/49b36238-490b-490f-a102-fb547a2c5336" />
 
 # Step 2:(detecting the event 4103 in the event viewer):
 goto:Applications and Services Logs → Microsoft → Windows → PowerShell → Operational\
@@ -36,6 +38,7 @@ find info like: \
 PowerShell command that was executed\
 User who ran the command\
 Timestamp of the execution\
+<img width="1920" height="1040" alt="Screenshot 2025-12-25 175930" src="https://github.com/user-attachments/assets/e53bc573-7d2e-4147-9ee0-7ec14b316ac3" />
 
  
 
