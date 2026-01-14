@@ -47,4 +47,5 @@ sudo systemctl status cron
 ```
 - Enable logging (cron logs are usually in /var/log/syslog or /var/log/cron).
 
-#
+## Detection and analysis:
+
