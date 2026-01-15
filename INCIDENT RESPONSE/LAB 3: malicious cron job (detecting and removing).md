@@ -36,7 +36,7 @@ echo -e '#!/bin/bash\necho "Ping from attacker server" >> /tmp/.cron.log' > /tmp
 chmod +x /tmp/malicious.sh
 ```
 2. Add a cron job for the current user:
-```
+
 echo "* * * * * /tmp/malicious.sh" >> /var/spool/cron/root
 <img width="1920" height="1080" alt="Screenshot 2026-01-14 194414" src="https://github.com/user-attachments/assets/9bd8f4c9-70b4-4a29-84e9-38425bf2601b" />
 <img width="1920" height="1080" alt="Screenshot 2026-01-15 185036" src="https://github.com/user-attachments/assets/e64bab34-ce0c-4e6b-824b-09c49e7f7a27" />
