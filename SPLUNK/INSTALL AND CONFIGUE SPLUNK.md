@@ -34,3 +34,6 @@ When prompted, set up an admin username and password.
 Open a web browser and go to:
 http://<your-server-ip>:8000
 Log in with the admin credentials created earlier.
+
+## RESULT:
+<img width="1920" height="1080" alt="Screenshot 2026-01-15 205540" src="https://github.com/user-attachments/assets/b904a4f6-e99f-4d5c-8ef6-5c236550ffa9" />
