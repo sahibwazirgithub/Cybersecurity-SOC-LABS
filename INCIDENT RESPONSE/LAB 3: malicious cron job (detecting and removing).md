@@ -9,7 +9,7 @@ A cron job is a sheduled task that runs automatically at defined intervals on Un
 .useful for backups,updates,monitering scripts,etc\
 .work in background via the cron service.
 ---**format of cron entry**-----
-```
+
 *  *  *  *  *  command-to-run
 │  │  │  │  │
 │  │  │  │  └─ Day of the week (0-7, Sun = 0 or 7)
