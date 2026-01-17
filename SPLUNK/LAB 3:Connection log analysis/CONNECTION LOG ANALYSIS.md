@@ -13,8 +13,10 @@ zeek_conn_logs.json (LOG FILE TO BE UPLOADED TO SPLUNK.
 
 ## Interesting Fields:
 1.service(used services eg:SMTP,DNS,HTTP,FTP and more).
-2.id.host_h
-3.
+2.id.host_h(originator host)\
+3.id.resp_h(responder host).
+
+
 ## LAB TASKS:
 ## 1.Find the Top 10 Client IPs (id.orig_h):
 spl query:\
